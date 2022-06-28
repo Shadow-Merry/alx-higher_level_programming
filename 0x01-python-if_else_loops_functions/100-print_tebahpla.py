@@ -2,4 +2,4 @@
 for x in range(122, 96, -1):
     if x % 2 == 1:
         x -= 32
-    print("{:c}".formart(a), end="")
+    print("{:c}".format(x), end="")
