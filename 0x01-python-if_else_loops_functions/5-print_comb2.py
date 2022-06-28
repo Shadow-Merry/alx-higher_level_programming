@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 for x in range(100):
-    if x < 10:
-        print(f"0{x}", end=", ")
-    elif x == 99:
-        print(x)
+    if x == 99:
+        print("{0:0=2d}".format(x))
     else:
-        print(f"{x}", end=", ")
+        print("{0:0=2d}".format(x) , end =", ")
